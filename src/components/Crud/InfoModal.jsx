@@ -41,7 +41,6 @@ export const InfoModal = () => {
                         <label className="absolute -top-2.5 left-4 bg-white px-1 text-[12px] text-slate-400 z-10 font-medium">Card Number</label>
                         <div className="w-full p-3 bg-slate-50 border-[1.5px] border-slate-200 rounded-2xl flex items-center gap-2">
                             <CreditCard size={16} className="text-slate-400" />
-                            {/* ZDES POKAZYVAEM POLNYY NOMER */}
                             <span className="text-xs font-mono font-bold tracking-wider text-slate-700">
                                 {selectedUser.card}
                             </span>
